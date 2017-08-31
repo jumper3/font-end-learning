@@ -1,0 +1,264 @@
+header {
+    height: 110px;
+}
+.center-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+footer {
+    height: 218px;
+    background-color: #3b3b3b;
+    padding-top: 100px;
+}
+#logo {
+    margin-top: 40px;
+    float: left;
+    width: 182px;
+    height: 54px;
+    background: url(../images/logo.png) no-repeat;
+}
+.nav {
+    float: right;
+    font-size: 14px;
+}
+.nav li {
+    margin-top: 44px;
+    margin-left: 50px;
+    float: left;
+    color: #3b3b3b;
+}
+.nav li a{
+    color: #3b3b3b;
+}
+.nav li a:hover {
+    text-decoration: underline;
+}
+.footer-col {
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #fff ;
+    line-height: 1.8;
+}
+.footer-col p {
+    color: #fff;
+}
+.footer-col:last-child {
+    margin-right: 0;
+}
+#footer-logo {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    width: 182px;
+    height: 55px;
+    background: url(../images/foot-logo.png) no-repeat;
+}
+.index-banner {
+    margin: 0 auto;
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+    background: url(../images/banner-bg.jpg) no-repeat;
+}
+.index-bg img {
+    margin: 0 auto;
+}
+#banner-logo {
+    width: 776px;
+    height: 117px;
+    background: url(../images/banner-logo.png) no-repeat;
+    position: absolute;
+    top: 210px;
+    left: 24%;
+}
+.index-banner p {
+    color: #fff;
+    top:353px;
+    left: 33%;
+    position: absolute;
+    font-size: 16px;
+}
+.line {
+    display: inline-block;
+    width: 40px;
+    border-top: 1px solid #fff;
+    margin: 0 26px;
+    vertical-align: middle;
+}
+
+/**/
+.index-menu {
+    position: relative;
+    border-top: 4px solid #f34949;
+}
+.menu-tips {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -78px;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    background: #f34949;
+}
+.menu-tips:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #fff;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+}
+.menu-list {
+    margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+.menu-list ul {
+    width: 1160px;
+}
+.menu-list ul li {
+    width: 520px;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+.title, .list-line {
+    float: left;
+}
+.price {
+    float: right;
+}
+.title {
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.list-line {
+    width: 192px;
+    border-top:1px solid #e3e1e1;
+    margin-top: 10px;
+}
+.title p {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #b7b7b7;
+    font-weight: 200;
+    font-style: italic;
+}
+.menu-list button {
+    width: 131px;
+    height: 32px;
+    border: 1px solid #d7d5d5;
+    background-color: #fff;
+    left: 484px;
+    color: #d7d5d5;
+    position: relative;
+    text-align: left;
+    text-indent: 14px;
+    font-size: 14px;
+}
+.menu-list button span {
+    margin-left: 13px;
+    height: 12px;
+    border-left: 1px solid #d7d5d5;
+    width: 0;
+    margin-right: 0;
+}
+.menu-list button img {
+    float: right;
+    width: 11px;
+    height: 7px;
+    margin-top: 6px;
+    padding-right: 13px;
+}
+.index-panel {
+    margin-top: 200px;
+}
+h3{
+    font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin-right: 20px;
+}
+.panel-line {
+    float: left;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+    margin-top: 12px;
+}
+.btn-group {
+    font-size: 0;
+    float: right;
+}
+.btn-group .panel-btn {
+    display: inline-block;
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: #e3e3e3;
+    border-radius: 50%;
+}
+.act {
+    background: #9b9b9b !important;
+}
+.panel-body {
+    margin-top: 80px;
+}
+.dish {
+    overflow: hidden;
+    
+}
+.dish ul {
+    width: 1160px;
+}
+.dish ul li {
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+}
+.dish ul li img {
+    margin-bottom: 28px;
+    height: 202px;
+}
+.dish .name {
+    color: #555;
+    margin-bottom: 10px;
+    
+}
+.star {
+    font-size: 0;
+    display: inline-block;
+    height: 13px;
+    width: 12px;
+    background: url("/images/star.png");
+}
+.nostar {
+    background: url("/images/nostar.png");
+}
+.dish .price {
+    color: #555;
+}
+.gallery {
+    margin-top: 130px;
+    margin-bottom: 200px;
+    width: 1160px;
+    height: 381px;
+}
+.gallery img {
+    float: left;
+}
+
+
+
+
+
+
