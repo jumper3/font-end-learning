@@ -1,0 +1,38 @@
+.navbar {
+  margin-bottom: 0px;
+}
+.form-inline {
+  margin-top: 9px;
+}
+
+.col-md-2 {
+  background-color: rgb(240,240,240);
+  padding-right: 0;
+}
+
+.nav-sidebar {
+  margin-top: 15px;
+}
+
+.nav-sidebar .active {
+  background-color: rgb(28,133,208);
+}
+.nav-sidebar .active a {
+  color: #fff;
+}
+
+h2 {
+  font-weight: 300;
+}
+.button-group {
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  margin-bottom: 20px;
+}
+
+#ringt-content {
+  margin-right: 15px;
+}
+
