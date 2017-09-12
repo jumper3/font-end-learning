@@ -1,0 +1,89 @@
+header {
+  background: url(img/123.jpg);
+}
+nav {
+  height: 50px;
+}
+#banner {
+  height: 700px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  float: right;
+  margin-right: 20px;
+}
+nav ul li a {
+  line-height: 50px;
+  text-decoration: none;
+  display: inline-block;
+  height: inherit;
+  color: #555;
+}
+nav .logo {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#banner .inner {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 80px 30px 0px 30px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  background-color: rgba(130,130,130,0.8);
+  border-radius: 10px;
+}
+#banner .inner h1,p {
+  margin: 0;
+}
+#banner .inner h1 {
+  position: relative;
+  top:-30px;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 400;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+#banner .inner p {
+  line-height: 30px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+button {
+  border: none;
+  background-color: rgb(90,171,40);
+  color: #eee;
+  padding: 10px 30px 10px 30px;
+  margin: 20px;
+  border-radius: 5px;
+}
+#banner .inner .more {
+  position: relative;
+  top: 200px;
+  color: #555;
+}
+.green {
+  padding: 250px 200px;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center
+}
+.wrapper hr {
+  width: 100%;
+  
+}
+
+
